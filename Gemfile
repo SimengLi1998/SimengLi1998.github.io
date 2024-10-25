@@ -1,11 +1,5 @@
-# source "https://rubygems.org"
-source "https://gems.ruby-china.com"
-
-
-
-
-
-
+source "https://rubygems.org"
+#source "https://gems.ruby-china.com"
 gem 'tzinfo'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 
