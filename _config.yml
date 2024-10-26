@@ -3,21 +3,21 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Kate
-middle_name: Wenqi
-last_name: Zhu
-#email: kate.s.zhu@gmail.com
+first_name: Simone
+middle_name: Simeng
+last_name: Li
+email: simone@bu.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Kate Zhu's Webpage
+  Simone Li's Webpage
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: Kate Wenqi Zhu # add your own keywords or leave empty
+keywords: Simone Simeng Li# add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://katewenqizhu.github.io # the base hostname & protocol for your site
+url: https://simengli1998.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -78,7 +78,7 @@ dblp_url: # your DBLP profile url
 discord_id: # your discord id (18-digit unique numerical identifier)
 facebook_id: # your facebook id
 flickr_id: # your flickr id
-github_username: # your GitHub user name
+github_username: SimengLi1998 # your GitHub user name
 gitlab_username: # your GitLab user name
 ieee_id: # your ieeexplore.ieee.org/author/id
 instagram_id: # your instagram id
@@ -86,7 +86,7 @@ kaggle_id: # your kaggle id
 keybase_username: # your keybase user name
 lastfm_id: # your lastfm id
 lattes_id: # your ID on Lattes (Brazilian Lattes CV)
-linkedin_username: kate-wenqi-zhu-08723a84  # your LinkedIn user name
+linkedin_username: simeng-li-simone  # your LinkedIn user name
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 medium_username: # your Medium username
 orcid_id: # your ORCID ID
@@ -94,8 +94,8 @@ osf_id: # your OSF ID
 pinterest_id: # your pinterest id
 publons_id: # your ID on Publons
 quora_username: # your Quora username
-research_gate_profile: Wenqi-Zhu-9 # your profile on ResearchGate
-scholar_userid: 65zdUfgAAAAJ&hl # your Google Scholar ID
+research_gate_profile: # your profile on ResearchGate
+scholar_userid: # your Google Scholar ID
 scopus_id: # your profile on Scopus
 semanticscholar_id: # your Semantic Scholar ID
 spotify_id: # your spotify id
@@ -106,13 +106,13 @@ wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 wikidata_id: # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)
-work_url: https://www.maths.ox.ac.uk/people/wenqi.zhu # work page URL
-x_username: OxUniMaths/status/1622993029660385281 # your X handle
+work_url: # work page URL
+x_username: # your X handle
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
-#contact_note: >
-#  kate.s.zhu@gmail.com
+contact_note: >
+  simone@bu.edu
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -258,19 +258,19 @@ keep_files:
 plugins:
   - jekyll-archives
   - jekyll-email-protect
-  - jekyll-feed
+  #  - jekyll-feed
   - jekyll-get-json
   - jekyll-imagemagick
-  - jekyll-jupyter-notebook
+  # - jekyll-jupyter-notebook
   - jekyll-link-attributes
   - jekyll-minifier
   - jekyll-paginate-v2
   - jekyll-regex-replace
   - jekyll/scholar
-  - jekyll-sitemap
+  #  - jekyll-sitemap
   - jekyll-tabs
   - jekyll-toc
-  - jekyll-twitter-plugin
+  #  - jekyll-twitter-plugin
   - jemoji
 
 # Sitemap settings
@@ -520,7 +520,8 @@ third_party_libraries:
     integrity:
       js: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
     url:
-      js: "https://cdn.jsdelivr.net/npm/jquery@{{version}}/dist/jquery.min.js"
+      #      js: "https://cdn.jsdelivr.net/npm/jquery@{{version}}/dist/jquery.min.js"
+      js: "https://code.jquery.com/jquery-{{version}}.min.js"
     version: "3.6.0"
   leaflet:
     integrity:

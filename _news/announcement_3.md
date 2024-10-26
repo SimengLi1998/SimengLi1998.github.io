@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-04-21 15:59:00-0400
+date: 2023-10-11 15:59:00-0400
 inline: true
 related_posts: false
 ---
 
-🌟 Thrilled to receive an invitation to the **Jane Street Graduate Research Fellowship Research Workshop** with a Travel Grant to travel to the States. *
+📝 Manuscript accepted by Journal of Science and Informatization: Mitigating Hallucinations in Language Models: The Power of Knowledge Graphs.

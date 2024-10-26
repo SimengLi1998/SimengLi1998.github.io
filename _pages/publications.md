@@ -10,6 +10,6 @@ nav_order: 1
 <!-- _pages/publications.md -->
 <div class="publications">
 
-{% bibliography %}
+{% bibliography --template bib_pub %}
 
 </div>

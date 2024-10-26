@@ -1,7 +1,7 @@
-source "https://rubygems.org"
-#source "https://gems.ruby-china.com"
-# gem 'tzinfo'
-# gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
+# source "https://rubygems.org"
+source "https://gems.ruby-china.com"
+ gem 'tzinfo'
+ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 
 group :jekyll_plugins do
     gem 'classifier-reborn'
@@ -22,8 +22,8 @@ group :jekyll_plugins do
     gem 'jekyll-toc'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
-    gem 'mini_racer'
-#   gem 'wdm', '~> 0.1.0'
+#    gem 'mini_racer'
+   gem 'wdm', '~> 0.1.0'
     gem 'unicode_utils'
     gem 'webrick'
 end
