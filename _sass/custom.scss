@@ -1,0 +1,130 @@
+#about_profile {
+  text-align: center;
+  padding: 30px 10px;
+  position: relative;
+}
+.about-profile {
+  width: 100%;
+
+  .social {
+
+  }
+
+  .contact-icons {
+    a i {
+      font-size: 2rem;
+    }
+  }
+}
+.portrait {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 50%;
+  object-fit: cover;
+
+
+
+}
+
+.portrait-title {
+  h2 {
+    font-size: 1.75em;
+    font-weight: 300;
+    margin: 30px 0 10px 0;
+  }
+
+  h3 {
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--global-text-color-light);
+    margin: 0px 0 10px 0;
+  }
+}
+
+ul.ul-edu li .description  .institution {
+  font-size: 0.75rem;
+  color: var(--global-text-color-light);
+}
+
+.pubtype-4 {
+  .btn-outline-primary {
+    border-width: 1px !important;
+    box-shadow: none !important;
+  }
+  .article-title {
+    font-weight: 400;
+  }
+}
+
+.card-simple {
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 4%);
+  border: 1px solid rgba(0, 0, 0, 9%);
+  border-radius: 3px;
+  margin-top: 20px;
+  padding: 15px 20px;
+
+  .article-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  .btn-outline-primary {
+    border-width: 1px !important;
+    box-shadow: none !important;
+  }
+}
+
+.article-metadata {
+  margin-bottom: 15px;
+  overflow: hidden;
+  font-size: 14px;
+  letter-spacing: .03em;
+  .author, .article-date, .middot-divider::after, .pub-publication {
+    color: var(--global-text-color-light)
+  }
+
+}
+
+
+.home-section:first-of-type {
+  padding-top: 50px;
+}
+
+.home-section {
+  /*background: var(--global-code-bg-color);*/
+  position: relative;
+  padding: 110px 0;
+  z-index: 0;
+}
+
+.home-section:nth-of-type(even) {
+  background: #f7f7f7;
+}
+
+
+[data-theme="dark"]{
+  .home-section:nth-of-type(even) {
+    background: #212529;
+  }
+
+  .card-simple {
+    background: #282a36;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 4%);
+    border: 1px solid #44475a;
+  }
+}
+
+
+.t-grid-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2%;
+  padding: 0 0 50px 0;
+}
+.t-grid-item {
+
+}
+.t-grid-item-img {
+  width: 100%;
+}

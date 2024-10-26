@@ -27,9 +27,9 @@ Recently, RS researchers and practitioners have made pioneering attempts to empl
 According to the research of previous scholars and the current state-of-the-art [1,5], there are three primary approaches for LLM-driven recommendation systems:
 
 1.	Sequential Integration of LLM and RS (Serial Approach)【串联】
-2. 
+
 2.	LLM as a Replacement for Traditional RS Architecture (LLM as RS)
-3. 
+
 3.	Fusion of LLM and RS (Fusion Approach)【融合】
 
 ![](/assets/img/researches/r1_1.png)
@@ -108,10 +108,17 @@ This approach addresses both the "WHERE" and "HOW" questions of integrating LLMs
       	Explore the feasibility of LLM+RS systems for recommendations across platforms, regions, fields, and languages.
 
 [1] https://arxiv.org/pdf/2306.05817
+
 [2] Likang Wu, Zhi Zheng, Zhaopeng Qiu, Hao Wang, Hongchao Gu, Tingjia Shen, Chuan Qin, Chen Zhu, Hengshu Zhu, Qi Liu, et al. 2023. A Survey on Large Language Models for Recommendation. arXiv preprint arXiv:2305.19860 (2023).
+
 [3] Wenqi Fan, Zihuai Zhao, Jiatong Li, Yunqing Liu, Xiaowei Mei, Yiqi Wang, Zhen Wen, Fei Wang, Xiangyu Zhao, Jiliang Tang, and Qing Li. 2023. Recommender Systems in the Era of Large Language Models (LLMs). arXiv:2307.02046 [cs.IR]
+
 [4] Chengkai Huang, Tong Yu, Kaige Xie, Shuai Zhang, Lina Yao, and Julian McAuley. 2024. Foundation Models for Recommender Systems: A Survey and New Perspectives. arXiv preprint arXiv:2402.11143 (2024).
+
 [5] https://arxiv.org/pdf/2305.19860
+
 [6] https://arxiv.org/pdf/2403.01744
+
 [7] https://arxiv.org/pdf/2306.02841   
+
 [8] https://arxiv.org/abs/2402.17152 
