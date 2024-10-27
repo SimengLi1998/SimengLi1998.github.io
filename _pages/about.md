@@ -29,15 +29,5 @@ social: true # includes social icons at the bottom of the page
 &nbsp;
 &nbsp;
 
-**Research Interests**
-======
-My general interests lie in understanding how to utilize higher-order information for efficient nonconvex optimization, including but not limited to computational complexity analysis, tensor approximation, implementable high-order subproblem solver, the tractability of polynomial optimization, and adaptive regularization techniques. 
-
-**Potential Collaborations:** If you are interested in these topics, feel free to reach out for more information!
-
-&nbsp;
-&nbsp;
-
-
 
 

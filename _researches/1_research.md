@@ -18,11 +18,11 @@ My research interest aims to explore the incorporation of LLMs into recommender 
 
 Recently, RS researchers and practitioners have made pioneering attempts to employ Large Language Models (LLMs) in current recommendation pipelines, achieving notable progress in enhancing the performance of various canonical recommendation processes such as feature modeling and ranking. Several survey works delve into the potential of LLMs for general recommender systems:
 
-	Wu et al. [2] conduct a review on both discriminative and generative LLMs for recommendation with different tuning strategies.
+ - Wu et al. [2] conduct a review on both discriminative and generative LLMs for recommendation with different tuning strategies.
 
-	Fan et al. [3] focus on the pretraining, finetuning and prompting approaches when leveraging LLM for recommendation.
+ - Fan et al. [3] focus on the pretraining, finetuning and prompting approaches when leveraging LLM for recommendation.
 
-	Huang et al. [4] investigate the recommendation foundation models from aspects of both different model types and various downstream tasks.
+ - Huang et al. [4] investigate the recommendation foundation models from aspects of both different model types and various downstream tasks.
 
 According to the research of previous scholars and the current state-of-the-art [1,5], there are three primary approaches for LLM-driven recommendation systems:
 
@@ -40,9 +40,9 @@ According to the research of previous scholars and the current state-of-the-art 
 
 This approach involves using LLMs to process upstream data before inputting it into the recommendation system for final ranking and decision-making. There are two main paradigms:
 
-	LLM Embeddings + RS: LLM generates embeddings for items and users, which are then input into the recommendation system. E.g., Xiaohongshu's "NoteLLM: A Retrievable Large Language Model for Note Recommendation" [6]
+- LLM Embeddings + RS: LLM generates embeddings for items and users, which are then input into the recommendation system. E.g., Xiaohongshu's "NoteLLM: A Retrievable Large Language Model for Note Recommendation" [6]
 
-	LLM Tokens + RS: LLM processes raw text data from users and items directly and then passes the processed results to the recommendation system. E.g., Huawei's "CTRL: Connect Collaborative and Language Model for CTR Prediction" [7]
+- LLM Tokens + RS: LLM processes raw text data from users and items directly and then passes the processed results to the recommendation system. E.g., Huawei's "CTRL: Connect Collaborative and Language Model for CTR Prediction" [7]
 
 
 
@@ -58,7 +58,7 @@ In this approach, LLMs are used directly as recommendation systems. This method 
 
 This approach addresses both the "WHERE" and "HOW" questions of integrating LLMs into RS:
 
-	WHERE: Discusses the roles that LLMs could play at different stages of the recommendation system pipeline, from data collection to the recommendation pipeline controller. The modern deep learning-based recommender systems can be characterized as an information cycle encompassing six key stages:
+ - WHERE: Discusses the roles that LLMs could play at different stages of the recommendation system pipeline, from data collection to the recommendation pipeline controller. The modern deep learning-based recommender systems can be characterized as an information cycle encompassing six key stages:
 
       1.	Data Collection: Gathering user feedback data.
 
@@ -72,7 +72,7 @@ This approach addresses both the "WHERE" and "HOW" questions of integrating LLMs
 
       6.	Recommendation Pipeline Controller: Serving as the central mechanism tying all the stages together in a cohesive process.
 
-	HOW: Centers on how to adapt LLMs for RS, with two orthogonal taxonomy criteria:
+ - HOW: Centers on how to adapt LLMs for RS, with two orthogonal taxonomy criteria:
 
       1.	Parameter Freezing: Whether to freeze the parameters of the LLM during the training phase.
 
@@ -87,25 +87,25 @@ This approach addresses both the "WHERE" and "HOW" questions of integrating LLMs
 ![](/assets/img/researches/r1_4.png)
 
 1.	Comparison of LLM+RS Research Paradigms
-      	Conduct a comparative analysis of the three mainstream LLM+RS research approaches: sequential integration, LLM as RS, and fusion of LLM and RS.
-      	Perform experimental comparisons to evaluate the strengths and limitations of each approach.
-      	Establish effective evaluation criteria to assess the performance and suitability of these approaches.
+       - Conduct a comparative analysis of the three mainstream LLM+RS research approaches: sequential integration, LLM as RS, and fusion of LLM and RS.
+       - Perform experimental comparisons to evaluate the strengths and limitations of each approach.
+       - Establish effective evaluation criteria to assess the performance and suitability of these approaches.
 2.	Exploring Solutions to Current RS Drawbacks with LLM Integration
       Investigate whether the integration of LLMs can address the current limitations of recommendation systems, such as:
-      	How can LLMs help solve the cold start problem and improve recommendation performance for new users or new content?
-      	Can LLMs help mitigate the information cocoons effect and expand user interests?
-      	How can LLMs facilitate the effective recommendation of non-popular, long-tail content?
-      	In what ways can LLMs enhance the understanding of complex user intentions and contexts?
-      	How can LLM-driven recommendation systems provide more explainable recommendations to users?
+       - How can LLMs help solve the cold start problem and improve recommendation performance for new users or new content?
+       - Can LLMs help mitigate the information cocoons effect and expand user interests?
+       - How can LLMs facilitate the effective recommendation of non-popular, long-tail content?
+       - In what ways can LLMs enhance the understanding of complex user intentions and contexts?
+       - How can LLM-driven recommendation systems provide more explainable recommendations to users?
 3.	Downstream Applications of LLM+RS Systems
-      	Explore how LLM+RS systems can influence product diversity sales and the long-tail effect.
-      	Investigate the potential of LLM+RS systems to facilitate cross-business and cross-company recommendations.
-      	Study how LLM+RS systems can integrate data from different business lines to provide a more comprehensive user profile.
-      	Utilize LLMs to deeply understand user behavior and decision-making processes in recommendation systems.
-      	Ensure that LLM-driven recommendation systems adhere to ethical standards and promote fairness:
+       - Explore how LLM+RS systems can influence product diversity sales and the long-tail effect.
+       - Investigate the potential of LLM+RS systems to facilitate cross-business and cross-company recommendations.
+       - Study how LLM+RS systems can integrate data from different business lines to provide a more comprehensive user profile.
+       - Utilize LLMs to deeply understand user behavior and decision-making processes in recommendation systems.
+       - Ensure that LLM-driven recommendation systems adhere to ethical standards and promote fairness:
       	How can LLM+RS systems balance personalization and social diversity in recommendations?
       	Can LLMs help reduce biases related to gender, race, and other factors in recommendation systems?
-      	Explore the feasibility of LLM+RS systems for recommendations across platforms, regions, fields, and languages.
+       - Explore the feasibility of LLM+RS systems for recommendations across platforms, regions, fields, and languages.
 
 [1] https://arxiv.org/pdf/2306.05817
 
