@@ -119,12 +119,47 @@ ul.ul-edu li .description  .institution {
 .t-grid-wrap {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2%;
+  gap: 0.6rem;
   padding: 0 0 50px 0;
 }
 .t-grid-item {
 
 }
 .t-grid-item-img {
-  width: 100%;
+  width: 100%; /* 图片宽度设置为100%，填满单元格 */
+  height: auto; /* 图片高度自动，保持宽高比 */
+  display: block; /* 移除图片下方的间隙 */
+}
+
+
+.post.awards {
+  .post-title{
+    font-weight: 400;
+  }
+}
+
+
+
+
+/*手机*/
+.life-page-g1 {
+  .tgi1 {
+    grid-column: 1 / 3;
+  }
+}
+
+/*大屏*/
+@media (min-width: 640px) {
+  .life-page-g2 {
+    width: 93%;
+  }
+  .life-page-g1 {
+    .tgi1 {
+      grid-row: 1 / 3;
+      grid-column: auto;
+    }
+    .tgi2 img, .tgi3 img {
+      width: 389px;
+    }
+  }
 }

@@ -3,9 +3,10 @@ layout: page
 permalink: /teaching/
 title: Teaching
 description: I enjoy teaching a wide range of subjects in applied mathematics and am passionate about explaining mathematical concepts in clear and accessible language to people without a mathematical background, especially young audiences.
-nav: true
+nav: false
 nav_order: 15
 ---
+
 
 ### Teaching at the University of Oxford
 
