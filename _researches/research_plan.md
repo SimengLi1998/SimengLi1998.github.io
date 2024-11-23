@@ -26,11 +26,11 @@ Recently, RS researchers and practitioners have made pioneering attempts to empl
 
 According to the research of previous scholars and the current state-of-the-art [1,5], there are three primary approaches for LLM-driven recommendation systems:
 
-1.	Sequential Integration of LLM and RS (Serial Approach)【串联】
+1.	Sequential Integration of LLM and RS (Serial Approach)
 
 2.	LLM as a Replacement for Traditional RS Architecture (LLM as RS)
 
-3.	Fusion of LLM and RS (Fusion Approach)【融合】
+3.	Fusion of LLM and RS (Fusion Approach)
 
 ![](/assets/img/researches/r1_1.png)
 
