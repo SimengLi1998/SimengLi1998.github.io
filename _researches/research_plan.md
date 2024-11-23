@@ -79,7 +79,7 @@ This approach addresses both the "WHERE" and "HOW" questions of integrating LLMs
 ## Research Plan
 
 ![Research Plan Diagram](/assets/img/researches/r1_4.png)
-<img src="/assets/img/researches/r1_4.png" alt="Research Plan Diagram" width="60%" style="display: block; margin: auto;">
+<img src="/assets/img/researches/r1_4.png" alt="Research Plan Diagram" width="75%" style="display: block; margin: auto;">
 
 1. **Comparison of LLM+RS Research Paradigms**  
    - Conduct a comparative analysis of the three mainstream LLM+RS research approaches: sequential integration, LLM as RS, and fusion of LLM and RS.  
