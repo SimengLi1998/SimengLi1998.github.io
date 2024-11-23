@@ -56,6 +56,9 @@ In this approach, LLMs are used directly as recommendation systems. This method 
 ![LLM as RS Approach](/assets/img/researches/r1_2.png)  
 ![LLM Workflow Diagram](/assets/img/researches/r1_3.png)  
 
+<img src="/assets/img/researches/r1_2.png" alt="LLM as RS Approach" width="80%" style="display: block; margin: auto;">
+<img src="/assets/img/researches/r1_3.png" alt="LLM Workflow Diagram" width="80%" style="display: block; margin: auto;">
+
 ---
 
 ### Approach 3: Fusion of LLM and RS
@@ -79,7 +82,7 @@ This approach addresses both the "WHERE" and "HOW" questions of integrating LLMs
 ## Research Plan
 
 ![Research Plan Diagram](/assets/img/researches/r1_4.png)
-<img src="/assets/img/researches/r1_4.png" alt="Research Plan Diagram" width="75%" style="display: block; margin: auto;">
+<img src="/assets/img/researches/r1_4.png" alt="Research Plan Diagram" width="80%" style="display: block; margin: auto;">
 
 1. **Comparison of LLM+RS Research Paradigms**  
    - Conduct a comparative analysis of the three mainstream LLM+RS research approaches: sequential integration, LLM as RS, and fusion of LLM and RS.  
