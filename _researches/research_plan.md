@@ -51,8 +51,8 @@ This approach involves using LLMs to process upstream data before inputting it i
 In this approach, LLMs are used directly as recommendation systems. This method leverages the generative capabilities of LLMs by constructing detailed prompts and instructions, enabling the LLM to generate recommendations based on user and item information.  
 *Example*: Meta's "Actions Speak Louder than Words: Trillion-Parameter Sequential Transducers for Generative Recommendations" [8]  
 
-<img src="/assets/img/researches/r1_2.png" alt="LLM as RS Approach" width="80%" style="display: block; margin: auto;">
-<img src="/assets/img/researches/r1_3.png" alt="LLM Workflow Diagram" width="80%" style="display: block; margin: auto;">
+<img src="/assets/img/researches/r1_2.png" alt="LLM as RS Approach" width="90%" style="display: block; margin: auto;">
+<img src="/assets/img/researches/r1_3.png" alt="LLM Workflow Diagram" width="90%" style="display: block; margin: auto;">
 
 
 ### Approach 3: Fusion of LLM and RS
@@ -75,7 +75,7 @@ This approach addresses both the "WHERE" and "HOW" questions of integrating LLMs
 
 ## Research Plan
 
-<img src="/assets/img/researches/r1_4.png" alt="Research Plan Diagram" width="80%" style="display: block; margin: auto;">
+<img src="/assets/img/researches/r1_4.png" alt="Research Plan Diagram" width="90%" style="display: block; margin: auto;">
 
 1. **Comparison of LLM+RS Research Paradigms**  
    - Conduct a comparative analysis of the three mainstream LLM+RS research approaches: sequential integration, LLM as RS, and fusion of LLM and RS.  
